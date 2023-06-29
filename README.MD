@@ -35,131 +35,131 @@ empty_np_array = np.array([])
 
 if not v_bool:
     print(f"1) {v_bool} is falsy")
-    if not is_truthty(v_bool):
+    if not is_truthy(v_bool):
         print(f"2) {v_bool} is falsy")
 else:
     print(f"1) {v_bool} is truthy")
-    if is_truthty(v_bool):
+    if is_truthy(v_bool):
         print(f"2) {v_bool} is truthy")
 if not v_none:
     print(f"1) {v_none} is falsy")
-    if not is_truthty(v_none):
+    if not is_truthy(v_none):
         print(f"2) {v_none} is falsy")
 else:
     print(f"1) {v_none} is truthy")
-    if is_truthty(v_none):
+    if is_truthy(v_none):
         print(f"2) {v_none} is truthy")
 if not v_0_0:
     print(f"1) {v_0_0} is falsy")
-    if not is_truthty(v_0_0):
+    if not is_truthy(v_0_0):
         print(f"2) {v_0_0} is falsy")
 else:
     print(f"1) {v_0_0} is truthy")
-    if is_truthty(v_0_0):
+    if is_truthy(v_0_0):
         print(f"2) {v_0_0} is truthy")
 if not v_0_1:
     print(f"1) {v_0_1} is falsy")
-    if not is_truthty(v_0_1):
+    if not is_truthy(v_0_1):
         print(f"2) {v_0_1} is falsy")
 else:
     print(f"1) {v_0_1} is truthy")
-    if is_truthty(v_0_1):
+    if is_truthy(v_0_1):
         print(f"2) {v_0_1} is truthy")
 if not v_0_2:
     print(f"1) {v_0_2} is falsy")
-    if not is_truthty(v_0_2):
+    if not is_truthy(v_0_2):
         print(f"2) {v_0_2} is falsy")
 else:
     print(f"1) {v_0_2} is truthy")
-    if is_truthty(v_0_2):
+    if is_truthy(v_0_2):
         print(f"2) {v_0_2} is truthy")
 if not empty_list:
     print(f"1) {empty_list} is falsy")
-    if not is_truthty(empty_list):
+    if not is_truthy(empty_list):
         print(f"2) {empty_list} is falsy")
 else:
     print(f"1) {empty_list} is truthy")
-    if is_truthty(empty_list):
+    if is_truthy(empty_list):
         print(f"2) {empty_list} is truthy")
 if not empty_tuple:
     print(f"1) {empty_tuple} is falsy")
-    if not is_truthty(empty_tuple):
+    if not is_truthy(empty_tuple):
         print(f"2) {empty_tuple} is falsy")
 else:
     print(f"1) {empty_tuple} is truthy")
-    if is_truthty(empty_tuple):
+    if is_truthy(empty_tuple):
         print(f"2) {empty_tuple} is truthy")
 if not empty_dict:
     print(f"1) {empty_dict} is falsy")
-    if not is_truthty(empty_dict):
+    if not is_truthy(empty_dict):
         print(f"2) {empty_dict} is falsy")
 else:
     print(f"1) {empty_dict} is truthy")
-    if is_truthty(empty_dict):
+    if is_truthy(empty_dict):
         print(f"2) {empty_dict} is truthy")
 if not empty_string:
     print(f"1) {empty_string} is falsy")
-    if not is_truthty(empty_string):
+    if not is_truthy(empty_string):
         print(f"2) {empty_string} is falsy")
 else:
     print(f"1) {empty_string} is truthy")
-    if is_truthty(empty_string):
+    if is_truthy(empty_string):
         print(f"2) {empty_string} is truthy")
 if not empty_byte:
     print(f"1) {empty_byte} is falsy")
-    if not is_truthty(empty_byte):
+    if not is_truthy(empty_byte):
         print(f"2) {empty_byte} is falsy")
 else:
     print(f"1) {empty_byte} is truthy")
-    if is_truthty(empty_byte):
+    if is_truthy(empty_byte):
         print(f"2) {empty_byte} is truthy")
 if not empty_bytearray:
     print(f"1) {empty_bytearray} is falsy")
-    if not is_truthty(empty_bytearray):
+    if not is_truthy(empty_bytearray):
         print(f"2) {empty_bytearray} is falsy")
 else:
     print(f"1) {empty_bytearray} is truthy")
-    if is_truthty(empty_bytearray):
+    if is_truthy(empty_bytearray):
         print(f"2) {empty_bytearray} is truthy")
 if not empty_set:
     print(f"1) {empty_set} is falsy")
-    if not is_truthty(empty_set):
+    if not is_truthy(empty_set):
         print(f"2) {empty_set} is falsy")
 else:
     print(f"1) {empty_set} is truthy")
-    if is_truthty(empty_set):
+    if is_truthy(empty_set):
         print(f"2) {empty_set} is truthy")
 print("----------------")
 try:
     if not empty_np_array:
         print(f"1) {empty_np_array} is falsy")
-        if not is_truthty(empty_np_array):
+        if not is_truthy(empty_np_array):
             print(f"2) {empty_np_array} is falsy")
     else:
         print(f"1) {empty_np_array} is truthy")
-        if is_truthty(empty_np_array):
+        if is_truthy(empty_np_array):
             print(f"2) {empty_np_array} is truthy")
 except Exception:
-    if not is_truthty(empty_np_array):
+    if not is_truthy(empty_np_array):
         print(f"2) {empty_np_array} is falsy")
-    if is_truthty(empty_np_array):
+    if is_truthy(empty_np_array):
         print(f"2) {empty_np_array} is truthy")
 
 empty_np_array = pd.DataFrame()
 try:
     if not empty_np_array:
         print(f"1) {empty_np_array} is falsy")
-        if not is_truthty(empty_np_array):
+        if not is_truthy(empty_np_array):
             print(f"2) {empty_np_array} is falsy")
     else:
         print(f"1) {empty_np_array} is truthy")
-        if is_truthty(empty_np_array):
+        if is_truthy(empty_np_array):
             print(f"2) {empty_np_array} is truthy")
 except Exception as fe:
     print(fe)
-    if not is_truthty(empty_np_array):
+    if not is_truthy(empty_np_array):
         print(f"2) {empty_np_array} is falsy")
-    if is_truthty(empty_np_array):
+    if is_truthy(empty_np_array):
         print(f"2) {empty_np_array} is truthy")
 
 

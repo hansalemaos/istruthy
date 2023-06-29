@@ -1,7 +1,7 @@
 from typing import Any
 
 
-def is_truthty(x: Any, /) -> Any:
+def is_truthy(x: Any, /) -> Any:
     """
     Determines the truthiness of the given value.
     The is_truthy function can be especially useful
