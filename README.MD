@@ -1,6 +1,6 @@
 # extends the capability of truthiness evaluation beyond the standard Python truthiness rules to handle pandas DataFrames/Series and NumPy Arrays
 
-## pip install istruthty
+## pip install istruthy
 
 #### Tested against Windows 10 / Python 3.10 / Anaconda
 ```python
